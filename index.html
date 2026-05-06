@@ -93,11 +93,11 @@ function getSigHTML() {
   const showMob = document.getElementById('chk-mobile').checked;
 
 
-  return `<table cellpadding="0" cellspacing="0" border="0" style="font-family:Arial,sans-serif;">
+  return `<table cellpadding="0" cellspacing="0" border="0" style="font-family:Aptos,sans-serif;">
 
   <!-- NAME | TITLE -->
   <tr>
-    <td style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;padding-bottom:20px;">
+    <td style="font-family:Aptos,sans-serif;font-size:11pt;line-height:1.4;padding-bottom:20px;">
       <span style="font-weight:700;color:#000;">${name}</span>
       <span style="color:#cccccc;padding:0 5px;font-weight:500;">|</span>
       <span style="color:#000000;font-weight:500;">${title}</span>
@@ -114,23 +114,23 @@ function getSigHTML() {
 
   <!-- CONTACT: 2 COLUMNS (Website+Email | Phone+Mobile) -->
   <tr>
-    <td style="font-family:Arial,sans-serif;font-size:13px;color:#000;padding-bottom:0;line-height:1.1;">
+    <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#000;padding-bottom:0;line-height:1.1;">
       <table cellpadding="0" cellspacing="0" border="0" style="height:100%;">
         <tr style="vertical-align:top;">
           <!-- LEFT COLUMN: Website & Email -->
-          <td style="font-family:Arial,sans-serif;font-size:13px;color:#000;padding-right:10px;vertical-align:top;font-weight:500;width:auto;">
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#000;padding-right:10px;vertical-align:top;font-weight:500;width:auto;">
             <div style="margin-bottom:5px;">
               <a href="https://awaydigitalteams.com" target="_blank"
-                 style="font-family:Arial,sans-serif;font-size:13px;color:#0000EE;text-decoration:underline;font-weight:500;">awaydigitalteams.com</a>
+                 style="font-family:Aptos,sans-serif;font-size:11pt;color:#0000EE;text-decoration:underline;font-weight:500;">awaydigitalteams.com</a>
             </div>
             <div>
-              <a href="mailto:${email}" style="font-family:Arial,sans-serif;font-size:13px;color:#0000EE;text-decoration:underline;font-weight:500;">${email}</a>
+              <a href="mailto:${email}" style="font-family:Aptos,sans-serif;font-size:11pt;color:#0000EE;text-decoration:underline;font-weight:500;">${email}</a>
             </div>
           </td>
           <!-- DIVIDER -->
           
-          <!-- RIGHT COLUMN: Phone & Mobile -->
-          <td style="font-family:Arial,sans-serif;font-size:13px;color:#000;padding-left:10px;vertical-align:top;font-weight:500;width:auto;">
+          <td style="width:1px;background-color:#cccccc;margin:0 10px;vertical-align:stretch;"></td><!-- RIGHT COLUMN: Phone & Mobile -->
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#000;padding-left:10px;vertical-align:top;font-weight:500;width:auto;">
             <div style="margin-bottom:5px;">
               <span style="color:#000;font-weight:500;">Phone</span>&nbsp;&nbsp;&nbsp;&nbsp;${phone}
             </div>
@@ -148,22 +148,22 @@ function getSigHTML() {
 
   <!-- OFFICES -->
   <tr>
-    <td style="font-family:Arial,sans-serif;font-size:13px;color:#000;line-height:1.4;">
+    <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#000;line-height:1.4;">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr valign="top">
-          <td style="font-family:Arial,sans-serif;font-size:13px;font-weight:500;color:#000;padding-right:20px;white-space:nowrap;">Australia</td>
-          
-          <td style="font-family:Arial,sans-serif;font-size:13px;color:#000;font-weight:500;">Suite 4 &amp; 5, 15 Inkerman St, St Kilda VIC 3182</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;font-weight:500;color:#000;padding-right:20px;white-space:nowrap;">Australia</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#cccccc;padding-right:10px;font-weight:500;">|</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#000;font-weight:500;">Suite 4 &amp; 5, 15 Inkerman St, St Kilda VIC 3182</td>
         </tr>
         <tr valign="top">
-          <td style="font-family:Arial,sans-serif;font-size:13px;font-weight:500;color:#000;padding-right:20px;white-space:nowrap;">USA</td>
-          
-          <td style="font-family:Arial,sans-serif;font-size:13px;color:#000;font-weight:500;">7055 Old Katy Rd, Suite #541, Houston, TX 77024</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;font-weight:500;color:#000;padding-right:20px;white-space:nowrap;">USA</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#cccccc;padding-right:10px;font-weight:500;">|</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#000;font-weight:500;">7055 Old Katy Rd, Suite #541, Houston, TX 77024</td>
         </tr>
         <tr valign="top">
-          <td style="font-family:Arial,sans-serif;font-size:13px;font-weight:500;color:#000;padding-right:20px;white-space:nowrap;">Vietnam</td>
-          
-          <td style="font-family:Arial,sans-serif;font-size:13px;color:#000;font-weight:500;">IPC Tower, Level 12, 1489 Nguyen Van Linh, District 7 HCMC</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;font-weight:500;color:#000;padding-right:20px;white-space:nowrap;">Vietnam</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#cccccc;padding-right:10px;font-weight:500;">|</td>
+          <td style="font-family:Aptos,sans-serif;font-size:11pt;color:#000;font-weight:500;">IPC Tower, Level 12, 1489 Nguyen Van Linh, District 7 HCMC</td>
         </tr>
       </table>
     </td>
